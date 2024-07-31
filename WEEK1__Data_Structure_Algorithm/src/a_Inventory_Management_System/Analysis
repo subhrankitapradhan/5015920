@@ -1,8 +1,12 @@
 Q.1 Analyze the time complexity of each operation (add, update, delete) in your chosen data structure.
 
-
+O(1) on average because adding an element to the end of an ArrayList is an constant time operation.
+ O(n) in the worst case because we might need to iterate through the entire list to find the product by its productId.
+O(n) in the worst case because we might need to iterate through the entire list to find and remove the product by its productId.
 
 Q.2 Discuss how you can optimize these operations.
 
+Instead of using an ArrayList, consider using a different data structure like a HashMap if frequent searches, updates, and deletions are required, 
+as it offers average constant-time complexity for these operations.
 
 
