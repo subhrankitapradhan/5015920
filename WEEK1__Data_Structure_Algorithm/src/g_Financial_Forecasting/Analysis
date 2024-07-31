@@ -1,0 +1,10 @@
+Q.1 Discuss the time complexity of your recursive algorithm.
+
+O(n), where n is the number of years. Each recursive call performs a constant amount of work (multiplying by the growth rate) and makes a single recursive call.
+
+Q.2 Explain how to optimize the recursive solution to avoid excessive computation.
+
+Recursion can lead to excessive computation and deep call stacks, especially for large inputs. To optimize:
+Memoization: Store results of previous computations to avoid redundant calculations. This technique is known as memoization.
+Tail Recursion: Optimize the recursive function to be tail-recursive, where the recursive call is the last operation in the function. 
+This can be optimized by some compilers to avoid increasing the call stack depth.
