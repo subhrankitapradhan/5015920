@@ -1,0 +1,10 @@
+Q.1 Explain how arrays are represented in memory and their advantages.
+
+Arrays are contiguous blocks of memory, where each element in the array is of the same type and size. 
+This allows for constant-time access (O(1)) to any element in the array by using its index, as the index can be used to directly
+calculate the memory address of the element.
+
+Advantages of Arrays
+Constant Time Access: The biggest advantage of arrays is that they provide O(1) time complexity for accessing elements.
+Cache Friendly: Due to their contiguous memory allocation, arrays exhibit good locality of reference and are cache-friendly.
+Simple Implementation: Arrays are straightforward to use and implement.
