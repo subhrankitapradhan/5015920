@@ -1,1 +1,9 @@
 Q.1 Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+
+Singly Linked List
+A singly linked list is a collection of nodes where each node contains a value and a reference to the next node in the list. 
+The last node points to null. Operations like insertion and deletion are efficient as they only require updating the next reference.
+
+Doubly Linked List
+A doubly linked list is similar to a singly linked list but each node contains two references: one to the next node and one to the previous node.
+This allows traversal in both directions. It requires more memory due to the additional previous reference but makes certain operations more efficient.
