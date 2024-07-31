@@ -1,0 +1,9 @@
+Q.1 Explain the concept of recursion and how it can simplify certain problems.
+Recursion is a method where a function calls itself to solve smaller instances of the same problem. 
+It can simplify problems that have a repetitive or nested structure, such as calculating factorials, 
+navigating tree structures, or solving certain mathematical problems.
+
+Recursion Simplifies Problems by:
+Divide and Conquer: Complex problems are divided into simpler sub-problems.
+Base Case: Every recursive function needs a base case to stop the recursion.
+Self-Similarity: The solution to the problem involves solving smaller instances of the same problem.
