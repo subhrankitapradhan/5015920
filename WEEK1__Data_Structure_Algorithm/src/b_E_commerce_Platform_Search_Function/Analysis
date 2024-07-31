@@ -1,4 +1,19 @@
 Q.1 Compare the time complexity of linear and binary search algorithms.
 
+Linear Search:
+
+Best Case: O(1) - The product is the first element in the array.
+Average Case: O(n) - On average, it searches through half of the elements.
+Worst Case: O(n) - The product is the last element or not present in the array.
+Binary Search:
+
+Best Case: O(1) - The product is the middle element in the array.
+Average Case: O(log n) - The search space is halved in each step.
+Worst Case: O(log n) - The product is in the last possible position after repeated halving.
 
 Q.2 Discuss which algorithm is more suitable for your platform and why.
+
+Linear Search: Suitable for small datasets or unsorted data. It's simple and doesn't require the data to be sorted.
+
+Binary Search: Suitable for large datasets where the data is sorted. It's significantly faster than linear search for 
+large datasets due to its logarithmic time complexity.
