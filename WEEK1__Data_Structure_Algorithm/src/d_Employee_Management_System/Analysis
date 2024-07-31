@@ -1,0 +1,23 @@
+Q.1 Analyze the time complexity of each operation (add, search, traverse, delete).
+
+Add:
+
+Best Case: O(1) - when there is space available in the array.
+Worst Case: O(1) - adding an element always takes constant time unless the array is full and needs resizing, which isn't handled in this basic implementation.
+
+Search:
+Best Case: O(1) - when the element is the first in the array.
+Average/Worst Case: O(n) - where n is the number of elements in the array.
+
+Traverse:
+Best/Average/Worst Case: O(n) - where n is the number of elements in the array.
+
+Delete:
+Best Case: O(1) - when the element to delete is the last element.
+Average/Worst Case: O(n) - where n is the number of elements in the array, as it may involve shifting elements.
+
+Q.2 Discuss the limitations of arrays and when to use them.
+
+Fixed Size: Arrays have a fixed size, which can be inefficient if the size is overestimated or insufficient if underestimated.
+Inefficient Insertion/Deletion: Insertion and deletion operations can be costly, especially if they involve shifting elements.
+Memory Waste: If the array is not fully utilized, it can lead to wasted memory.
