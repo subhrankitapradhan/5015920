@@ -13,7 +13,10 @@ Q.2 Discuss the types of data structures suitable for this problem.
 
 ANS:
 
-
+ArrayList: Suitable for storing elements in a sequential manner. Provides fast access by index but is less efficient for search, insertion, and deletion operations.
+HashMap: Offers average constant-time complexity for search, insertion, and deletion operations. Ideal for scenarios where quick access to data based on unique keys (e.g., productId) is required.
+TreeMap: Provides sorted key-value pairs with logarithmic time complexity for search, insertion, and deletion operations. Useful when order matters.
+LinkedList: Efficient for insertion and deletion operations but slower for access and search operations due to sequential traversal.
 
 
 
