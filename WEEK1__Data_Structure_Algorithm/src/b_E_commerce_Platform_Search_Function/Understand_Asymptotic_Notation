@@ -1,2 +1,18 @@
 Q.1 Explain Big O notation and how it helps in analyzing algorithms.
+
+
+
+
+
+
+
+
 Q.2 Describe the best, average, and worst-case scenarios for search operations.
+
+Best Case: The minimum time an algorithm can take to complete. For example, in a search operation, 
+           the best case occurs when the desired element is the first element of the array.
+
+Average Case: The expected time an algorithm takes to complete, averaged over all possible inputs.
+
+Worst Case: The maximum time an algorithm can take to complete. For example, in a search operation, 
+             the worst case occurs when the desired element is not present or is the last element of the array.
